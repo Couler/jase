@@ -1,0 +1,41 @@
+header { font: 12px Arial;background: whites; width:100%; height: 30px; }
+section { background: black; width:100%; height: 900px; float: left; }
+
+footer { background: white; width:100%; height: 70%px; clear: both; }
+p { font: 14px Arial, sans-serif; color: black; text-align: center; }
+p1 { font: 16px Arial, sans-serif; color: 5a5a50; text-align: center; }
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gainsboro;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	
+}
+
+li {
+    float: right;
+	/*border-right: 1px solid #bbb;*/
+	border-left: 1px solid #bbb;
+	li:last-child {
+    border-right: none;
+	}
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: gainsboro;
+}
